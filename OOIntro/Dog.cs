@@ -13,7 +13,7 @@ namespace OOIntro
         }
         public Dog() : this("Brown", 15)
         {
-        //voff
+            //voff
         }
         public override void Eat(IEdible food)
         {
