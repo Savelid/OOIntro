@@ -19,6 +19,7 @@ namespace OOIntro
         {
             food.Weight *= 0.8;
             base.Eat(food);
+            MakeSound();
         }
         public override string MakeSound()
         {
