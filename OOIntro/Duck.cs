@@ -22,7 +22,7 @@ namespace OOIntro
 
         public void ChangeColour(string colour)
         {
-            ChangeColor(colour);
+            Color = colour;
         }
 
         public string GetAwesome()
