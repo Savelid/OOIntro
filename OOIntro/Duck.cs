@@ -19,5 +19,10 @@ namespace OOIntro
         {
             return "Qwack!";
         }
+
+        public void ChangeColour(string colour)
+        {
+            this.Color = colour;
+        }
     }
 }
