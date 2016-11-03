@@ -16,7 +16,7 @@ namespace OOIntro
         {
             Color = color;
             Weight = weight;
-            InstanceCount++++++;
+            InstanceCount++++++?;
         }
         public virtual void Eat(IEdible food)
         {
