@@ -9,7 +9,7 @@ namespace OOIntro
     abstract class Animal : IEdible
     {
         public static int InstanceCount { get; set; }
-        public string Color { get; private set; }
+        public string Color { get; set; }
         public double Weight { get; set; }
         protected int Age { get; set; }
         public Animal(string color, double weight)
