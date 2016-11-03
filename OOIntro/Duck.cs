@@ -24,5 +24,10 @@ namespace OOIntro
         {
             this.Color = colour;
         }
+
+        public string GetAwesome()
+        {
+            return "you are awesome!";
+        }
     }
 }
