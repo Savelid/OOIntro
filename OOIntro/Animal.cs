@@ -14,7 +14,7 @@ namespace OOIntro
         protected int Age { get; set; }
         public Animal(string color, double weight)
         {
-            Color = color;
+            Color = color!;
             Weight = weight;
             InstanceCount++;
         }

@@ -17,6 +17,7 @@ namespace OOIntro
         public override string MakeSound()
         {
             return "Qwack!";
+            return "Muu"
         }
     }
 }
