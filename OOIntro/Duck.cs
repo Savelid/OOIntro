@@ -22,7 +22,7 @@ namespace OOIntro
 
         public void ChangeColour(string colour)
         {
-            this.Color = colour;
+            ChangeColor(colour);
         }
 
         public string GetAwesome()

@@ -28,5 +28,10 @@ namespace OOIntro
             Weight = 0;
         }
         public abstract string MakeSound();
+
+        public void ChangeColor(string colour)
+        {
+            Color = colour;
+        }
     }
 }
