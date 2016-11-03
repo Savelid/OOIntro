@@ -19,5 +19,10 @@ namespace OOIntro
         {
             return "Qwack!";
         }
+
+        public string GetAwesome()
+        {
+            return "you are awesome!";
+        }
     }
 }
