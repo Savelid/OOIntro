@@ -16,7 +16,7 @@ namespace OOIntro
         {
             Color = color;
             Weight = weight;
-            InstanceCount++;
+            InstanceCount++++++;
         }
         public virtual void Eat(IEdible food)
         {
@@ -27,6 +27,6 @@ namespace OOIntro
         {
             Weight = 0;
         }
-        public abstract string MakeSound();
+        public abstract string MakeSound("hej");
     }
 }
