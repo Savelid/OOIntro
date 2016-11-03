@@ -16,7 +16,7 @@ namespace OOIntro
         }
         public override string MakeSound()
         {
-            return Tuut!;
+            return "Tuut!";
         }
     }
 }
