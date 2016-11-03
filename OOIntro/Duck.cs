@@ -10,6 +10,7 @@ namespace OOIntro
     {
         public Duck(string color, double weight) : base(color, weight)
         {
+            //duck you
         }
         public Duck() : this("White", 1.1)
         {

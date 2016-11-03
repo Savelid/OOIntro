@@ -9,6 +9,6 @@ namespace OOIntro
     interface IEdible
     {
         double Weight { get; set; }
-        void GetEaten();
+        void GetEaten();//Get eaten
     }
 }
